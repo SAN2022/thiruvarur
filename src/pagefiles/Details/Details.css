@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navDetails-img{
+    width: 100%;
+    height: 300px;
+    /* background-color: red; */
+    /* background-image: url(../../images/Schools-Images/grm.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card-content{
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    /* flex-direction: column; */
+}
+.card-images{
+    width: 100%;
+    /* height: 200px; */
+    display: flex;
+    flex-direction: column;
+    /* float: left; */
+}
+.card-img{
+    width: 25%;
+    height: 200px;
+    /* background-color: grey; */
+    padding: 0.5em;
+    text-align: center;
+}
+.images{
+    width: 28%;
+    height: 200px;
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+table, th, tr, td{
+    /* border: 1px solid black; */
+    padding: 5px;
+    font-size: medium;
+    box-sizing: border-box;
+}
+table td a{
+    color: seashell;
+}

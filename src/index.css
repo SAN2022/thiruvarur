@@ -1,0 +1,850 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+.img1, .img2, .img3, .img4{
+  background-position: 50% 55% !important;
+  background-size: cover !important;
+  box-sizing: border-box;
+  opacity: 0.9;
+}
+/* .imgslide{
+  width: 100%;
+  height: 400px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 55% !important;
+} */
+.img1{
+  background-image: url(./images/temple-with-ther.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img2{
+  background-image: url(./images/collectorate.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img3{
+  background-image: url(./images/medicalclg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img4{
+  background-image: url(./images/birds-sanctuary.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* #imgslide{
+  width: 100%;
+  height: 400px;
+  box-sizing: border-box;
+  position: relative;
+} */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+/* .imageslider{
+  width: 100%;  
+  margin: -1.2em 0 0 0;
+  height: 400px; */
+  /* background-color: red; */
+  /* box-shadow: 2px 2px 3px 3px rgba(60, 40, 50, 0.7);
+  box-sizing: border-box !important;
+  position: relative; */
+  /* margin-bottom: -20em; */
+/* } */
+/* .imgslide-radio .radio{
+  position: absolute;
+  top: 0;
+  left: 100px; */
+  /* float: left; */
+  /* display: flex; */
+  /* flex-direction: row;
+  align-items: center;
+  justify-content: center; */
+/* } */
+.slider-text{
+  color: maroon;  
+}
+/* .slider-text::before{
+  content: "|";
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+} */
+.pre, .next{
+  position: absolute;
+  top: 33%;  
+  background-color: rgba(10, 10, 40, 0.8);
+  color: antiquewhite;
+  font-size: 2em;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+}
+.pre{
+  left: 2%;
+}
+.next{
+  left: 95%;
+}
+.weather{
+  width: 30%;
+  background-color: palegoldenrod;
+  padding: 2em;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+.container-fluid{
+  width: 100%;
+  /* height: 100vh; */
+  margin: 0;
+  padding: 0;
+  background-color: lavender;   /* lightblue */
+  box-sizing: border-box;
+}
+.container-fluid hr{
+  width: 10%;
+  height: 10px;
+  /* background-color: orangered; */
+}
+.tvr-board{
+  width: 10%;
+  height: 100px;
+  position: relative;
+  top: 13%;
+  left: 10%;
+  /* background-image: url(./images/tvr-board.jpg); */
+  background-image: url(./images/tvr-board.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.marquee{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 0;
+  left: 0;
+  /* vertical-align: middle; */
+}
+.train-chain{
+  width: 6%;
+  height: 10px;
+  background-color: orangered;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+.train-box{
+  width: 10%;
+  background-color: darkblue;
+  color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 6%;
+}
+marquee img{
+  width: 110px;
+  height: 80px;
+  background-image: url(./images/train.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* float: left; */
+}
+.col-md-12{
+  box-sizing: border-box;
+}
+.collector-content{
+  width: 100%;
+  padding: .2em;
+  border-radius: 2%;
+  background-color: rgba(100, 80, 200, 0.5);     /* lightcoral */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  z-index: 0;
+}
+.collector-content .tamilnadu-logo{
+  width: 100%;
+  height: 200px;
+  background-image: url(./images/tamilnadu-arasu-logo.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.1;
+}
+.collector-content .caption{
+  padding: 1em; /*1.6em*/
+  background-color: papayawhip;
+  color: red;
+}
+/* .collector-content .caption h3{
+  font-size: 0.7em;
+} */
+.collector-img{
+  width: 150px;
+  height: 150px;
+  background-image: url(./images/TVR\ Clt.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  /* z-index: 1; */
+}
+/* .hidden-round{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: orange;
+  position: absolute;
+  top: -10%;
+  left: 10%;
+  z-index: 0;
+} */
+.navlinks{
+  margin: 0 0 0 -1.2em;
+}
+.navlinks .list-group{
+  margin: 1em 0;
+}
+.navlinks .list-group-item{
+  padding: 1em !important;
+  color: darkolivegreen;
+  position: relative;
+  overflow: hidden;
+}
+.navlinks .list-group-item:hover .faNav-design{
+  left: 0%;
+  transition: 0.8s;
+  z-index: -1;
+}
+.list-group-item{
+  /* cursor: not-allowed; */
+  padding: 1.5em;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.navlinks .list-group-item:hover{
+  z-index: 1;
+  color: seashell;
+}
+/* .list-group-head:hover{
+  background-color: darkslategray !important;
+} */
+.clock{
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 3em 1.5em;
+  background-color: mediumslateblue;
+  background-image: url(./images/clock-bk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.nithra-jobs-thiruvarur{
+  width: 100%;
+  height: 240px;
+  padding: 0 1em;
+  background-color: midnightblue;
+  color: gainsboro;
+  position: relative;
+  overflow: hidden;
+}
+.nithra-jobs-thiruvarur h3{
+  margin-bottom: 0;
+}
+.nithra-jobs-thiruvarur .jobs-bk{
+  width: 100%;
+  height: 150px;
+  opacity: 0.5;
+  background-image: url(./images/jobs.png);
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position: center;
+  position: absolute;
+  top: 43%;
+  left: 0;
+}
+.nithra-jobs-thiruvarur a{
+  padding-top: 1em;
+  /* margin-top: 1.2em; */
+  color: gainsboro;
+}
+.nithra-jobs-thiruvarur .down-arrow{
+  font-size: 1.6em;
+  color: yellow;    /*orangered*/
+  display: inline-block;
+  animation-name: arrow;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+@keyframes arrow {
+  0%{
+    transform: translateY(-5px);
+    background-color: orange;
+  }
+  50%{
+    transform: translateY(5px);
+    background-color: darkblue;
+  }
+  100%{
+    transform: translateY(-5px);
+    background-color: black;
+  }
+}
+.container-fluid .a.list-group-item:hover{
+  background-color: lightseagreen;
+  color: honeydew;
+}
+.col-md-9{
+  /* min-width: 600px; */
+  padding: 0;
+  /* background-color: rgba(151, 207, 133, 1); */
+  background-color: rgba(255, 223, 102);
+  /* background-color: orange; */
+}
+.col-md-9 .content{
+  padding: 1em;
+}
+.col-md-9 .content .about > h2{
+  font-weight: bold;
+  color: darkolivegreen;
+}
+.col-md-9 .content .about .text{
+  font-weight: 600;
+}
+hr.top{
+  width: 70%;
+  height: .2px;
+  background-color: black;
+}
+.about{
+  width: 100%;
+  padding: 10px;
+  /* background-color: cadetblue; */
+}
+.dis{
+  width: 100%;
+  /* height: 320px; */
+  display: flex;
+  margin-bottom: 1em;
+  /* background-color: aliceblue; */
+}
+.text{
+  width: 60%;
+  text-align: justify;
+  font-size: 1.5em;
+  margin-right: 1em;  
+  line-height: 1.5;
+}
+.text:nth-child(2){
+  margin-left: 1em;
+}
+.imgbox{
+  width: 40%;
+  height: 220px;
+  box-shadow: 2px 3px 5px rgba(0, 100, 50, 0.7);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* vertical-align: auto; */
+}
+.imgbox1{
+  background-image: url(../src/images/drone\ view.jpg);
+}
+.imgbox2{
+  background-image: url(../src/images/temple-with-ther.jpg);
+}
+.imgbox3{  
+  background-image: url(../src/images/temple01.jpg);
+}
+.about hr{
+  width: 10%;
+  height: 3px;
+  margin: 0 0 .5em 0;
+  background-color: palegoldenrod;  
+}
+/* Schools */
+.govt-schools, .private-schools, a.list-group-item{
+  font-size: 1em;
+}
+.school-head, .college-head, .hospital-head, .theatre-head, .hotel-head, .bank-head{
+  background-color: darkslategrey !important;      
+  color: seashell !important;
+  font-weight: bold;
+}
+/* .school-head, .college-head, .hospital-head, .theatre-head, .hotel-head:hover{
+  background-color: darkslategrey !important;
+} */
+/* iframe{
+  width: 100%;
+  height: 700px;
+  background-color: darkslateblue;
+} */
+.col-md-8{
+  /* width: 60%;
+  margin: 0;
+  padding: 0;
+  height: 100vh;  */
+  background-color: #78AEF7 ;
+  color: seashell;
+}
+.schools, .colleges, .hospitals, .theatres, .hotels, .banks{
+  width: 100%;
+  margin-top: -2.5em;
+  background-color: khaki;
+}
+.vs-boys-img, .veludayar-img, .sairam-img, .grm-img, .fathima-img, .kasturba-img{
+  width: 100%;
+  height: 280px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: -2px 6px 5px 2px rgba(255, 255, 255, 0.8);
+}
+.vs-boys-img{
+    background-image: url(./images/Schools-Images/vsbhs.jpg);
+}
+.veludayar-img{
+  background-image: url(./images/Schools-Images/veludayar.jpg);
+}
+.sairam-img{
+  background-image: url(./images/Schools-Images/sairam.jpg);
+}
+.grm-img{
+  background-image: url(./images/Schools-Images/grm.jpg);
+}
+.fathima-img{
+  background-image: url(./images/Schools-Images/fathima.jpg);
+  background-size: 100% 120%;
+}
+.kasturba-img{
+  background-image: url(./images/Schools-Images/kasturba.jpg);
+}
+.footer{
+  /* width: 100%; */
+  /* height: 150px; */
+  background-color: black;
+  color: aliceblue;
+  padding: 1em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 1em;
+}
+.footer ul li{
+  font-size: 1.2em;
+  color: seashell;
+  list-style-type: none;
+}
+.footer .foot-link{
+  text-decoration: none;
+}
+.footer ul li:hover{
+  color: goldenrod;
+}
+hr.footer-line{
+  width: 60px;
+  height: 3px;
+  background-color: yellow;
+}
+.links{
+  margin-right: 2em;
+}
+.content-navs{
+  /* background-color: aliceblue; */
+  color: silver;
+}
+.fa-icons{
+  /* font-size: 1.3em; */
+  /* line-height: 5em; */
+  vertical-align: bottom;
+}
+.faNav-design{
+  width: 100%;
+  height: 100px;
+  background-color: crimson;
+  color: silver;
+  position: absolute;
+  top: 0;
+  left: -98%;
+  z-index: 0;
+}
+.schools-img{
+  width: 100%;
+  height: 300px;
+  /* background-image: url(./images/Schools-Images/grm.jpg); */
+  /* background-image: url(../../images/Schools-Images/grm.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.population{
+  /* transform: translate(60%, 50%); */
+  /* width: 32%; */
+  margin: 1em 0;
+  padding: 2.5em 2em;
+  background-color: palevioletred;
+  color: seashell;
+  /* clear: both; */
+}
+.population h4{
+  line-height: 1.5;
+}
+/* Gallery */
+.repository{
+  color: darkblue;
+}
+.repository + hr{
+  width: 60%;
+}
+.gal1, .gal2, .gal3, .gal4, .gal5, .gal6, .gal7, .gal8{
+  width: 35%;       /* 35% */
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* float: left; */
+  display: inline-block;
+  flex-direction: row;
+  margin: .5em;
+  border-radius: 2em 0 0 0;
+}
+.gal1{
+  background-image: url(./images/aazhi-ther.jpg);
+}
+.gal2{
+  background-image: url(./images/temple01.jpg);
+}
+.gal3{
+  background-image: url(./images/drone\ view.jpg);
+}
+.gal4{
+  background-image: url(./images/temple-with-ther.jpg);
+}
+.gal5{
+  background-image: url(./images/medicalclg01.jpg);
+}
+.gal6{
+  background-image: url(./images/collectorate.jpg);
+}
+.gal7{
+  background-image: url(./images/medicalclg.jpg);
+}
+.gal8{
+  background-image: url(./images/birds-sanctuary.jpg);
+}
+.gallery-img{
+  opacity: 0.8;
+  transition: 1s;
+  /* transform: scale(0.9); */
+}
+.gallery-img:hover{
+  transform: scale(1.01);
+}
+
+.gallery-img:hover{
+  opacity: 1;
+}
+.gallery-wrapper{
+  width: 70%;
+  height: 300px;
+  background-color: #78AEF7;
+  display: flex;
+}
+/* .gallery{
+  width: 100%;
+  background-color: red;
+  margin-top: 2em;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 1;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  animation-name: move;
+  animation-duration: 20s;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-delay: 10s;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  transition: 10s;
+}
+@keyframes move{
+  0%{
+    transform: translateX(0%);
+  }
+  10%{
+    transform: translateX(-10%);
+  }
+  20%{
+    transform: translateX(-20%);
+  }
+  30%{
+    transform: translateX(-30%);
+  }
+  40%{
+    transform: translateX(-40%);
+  }
+  50%{
+    transform: translateX(-50%);
+  }
+  60%{
+    transform: translateX(-60%);
+  }
+  70%{
+    transform: translateX(-70%);
+  }
+  80%{
+    transform: translateX(-80%);
+  }
+  90%{
+    transform: translateX(-90%);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+} */
+
+/* Responsive Media Queries */
+@media only screen and (max-width: 991px) {
+  .col-md-9 .content .text{
+    font-size: 1em;
+    /* background-color: crimson; */
+  }
+  .col-md-9 .content .imgbox{
+    /* width: 25%; */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-nav {
+    background-color: red;
+  }
+  /* .population {
+    background-color: darkblue;
+    position: absolute;
+    top: 150%;
+  } */
+}
+
+
+/* For Jobs work */
+/* .job-container{
+    width: 100%;
+    background-color: #78AEF7;
+    padding: 1em;
+} */
+
+.jobs .tvr-job-head{
+  padding: 2em;
+  background-color: darkslategray;
+  color: khaki;
+  font-weight: bold;
+  /* padding: 5em 5em; */
+  text-align: center;
+}
+/* Job Table */
+.see-get{
+  text-align: center;
+  padding: .5em;
+  background-color: darkslategray;
+  color: seashell;
+}
+.velai{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* .job-table{
+  display: flex;
+  margin: 0 0 2em 0;
+  padding: 2em;
+  background-color: khaki;
+}
+.job-table table tbody tr th{
+  width: 10em;
+  color: firebrick;
+}
+.job-table table tbody td{
+  width: 22em;
+  color: darkblue;
+}
+.job-table table tbody tr th, 
+.job-table table tbody tr td{
+  border: 2px solid black;
+  padding: 1em;
+}
+.job-table table{
+  margin-right: 2em;
+} */
+.youtube-link{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.click-here{
+  color: blue;
+}
+.click-here:hover{
+  color: seashell;
+}
+/* For Under maintenance */
+/* .maintenance{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.maintenance .blink{
+  margin: 13px 0 0 20em;
+  animation: blinker 1.5s linear infinite;
+  color: red;
+  /* font-family: sans-serif; */
+  font-size: 1.3em;
+  font-weight: bold;
+}
+@keyframes blinker {
+  50%{
+    opacity: 0;
+  }
+}
+
+/* For Test */
+/* .slider{
+  width: 50%;
+  height: 0%;
+  background-color: red;
+} */
+
+/* .job-table */
+.job-container{
+  background-color: darkgray;
+}
+.jobs{
+  margin-top: 1em;
+}
+.card1{
+  width: 90%;
+  background-color: darkkhaki;
+  font-size: 1.8em;
+  padding: 1.5em;
+}
+/* .card1 h2{
+  text-align: center;
+} */
+/* .head-center{
+  text-align: center; */
+/* } */
+.card1-top{
+  line-height: 2;
+  border-radius: .5em;
+  background-color: darksalmon;
+  padding: 1em;
+  font-weight: bold;
+  /* color: darkviolet; */
+}
+.card1-top p{
+  font-size: .9em;
+}
+.item{
+  padding: 1em;
+}
+.item-name{
+  background-color: yellow;
+}
+.item-web{
+  background-color: lightblue;
+}
+/* .card1-top h2{
+  background-color: darkblue;
+  color: seashell;
+  padding: 10px; */
+  /* border-radius: 5px; */
+/* } */
+.head-center{
+  text-align: center;
+  background-color: yellow;
+  font-weight: bold;
+  font-size: 1.3em;
+  padding: 10px;
+  margin: 1em 0;
+}
+.card-table{
+  width: 100%;
+  background-color: oldlace;
+}
+.card-table a{
+  color: blue;
+}
+.card-table th, .card-table td{
+  font-weight: bold;
+  padding: 10px;
+  border: 1.2px solid black;
+}
+/* Footer */
+.footer ul li{
+  text-decoration: none;
+}
+
+/* For Minimum Size of Webpage*/
+@media only screen and (max-width: 600px) {
+  .card1-top p{
+    font-size: .6em;
+  }
+  .head-center{
+    font-size: 1em;
+  }
+  .card-table th, .card-table td{
+    font-size: .7em;
+  }
+
+  /* History */
+  /* .about{
+    width: 100%;
+    padding: 10px;
+  } */
+  .dis .text{
+    width: 50%;
+    /* display: flex; */
+    /* margin-bottom: 1em; */
+    /* font-size: 1em; */
+  }
+  .imgbox{
+    width: 50%;
+  }
+  .gallery-img{
+    width: 100%;
+    /* height: 150px; */
+    /* background-color: #78AEF7; */
+    display: flex;
+  }
+}
