@@ -248,7 +248,7 @@ function Home() {
       <div className='jobs'>
       
         <Link to='/Jobs'>
-          <h1 className='tvr-job-head'>Job Updates & Reminders (வேலைவாய்ப்புகள் & நினைவூட்டல்கள்)<img src={gif} width={'50px'} height={'50px'}/></h1>
+          <h1 className='tvr-job-head'>Live Updates (லேட்டஸ்ட் தகவல்கள்)<img src={gif} width={'50px'} height={'50px'}/></h1>
         </Link>
 
           {/* <Jobs/> */}
