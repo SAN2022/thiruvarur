@@ -448,39 +448,19 @@ hr.top{
 .kasturba-img{
   background-image: url(./images/Schools-Images/kasturba.jpg);
 }
-.footer{
-  /* width: 100%; */
-  /* height: 150px; */
-  background-color: black;
-  color: aliceblue;
-  padding: 1em;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  margin-top: 1em;
+.footer ul a, li, .navigations{
+  color: seashell;
 }
 .footer ul li{
-  font-size: 1.2em;
-  color: seashell;
   list-style-type: none;
 }
-.footer .foot-link{
-  text-decoration: none;
-}
 .footer ul li:hover{
-  color: goldenrod;
+  color: skyblue;
 }
 hr.footer-line{
   width: 60px;
-  height: 3px;
-  background-color: yellow;
-}
-.links{
-  margin-right: 2em;
-}
-.content-navs{
-  /* background-color: aliceblue; */
-  color: silver;
+  height: 10px;
+  /* background-color: yellow; */
 }
 .fa-icons{
   /* font-size: 1.3em; */
@@ -521,9 +501,9 @@ hr.footer-line{
 .repository{
   color: darkblue;
 }
-.repository + hr{
+/* .repository + hr{
   width: 60%;
-}
+} */
 .gal1, .gal2, .gal3, .gal4, .gal5, .gal6, .gal7, .gal8{
   width: 35%;       /* 35% */
   height: 300px;

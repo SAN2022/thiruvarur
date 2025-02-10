@@ -1,5 +1,5 @@
 import React from "react";
-import {Navbar} from 'react-bootstrap';
+import {Navbar, Container} from 'react-bootstrap';
 import {BrowserRouter as Router, Route, Link, NavLink} from 'react-router-dom';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faDroplet, faHome, faPhoneSquareAlt } from "@fortawesome/free-solid-svg-icons";
@@ -22,6 +22,7 @@ function MyNavbar()
         </Navbar>     */}
 
         <Navbar className="navbar navbar-inverse">
+            <Container>
             <div className="col-md-12">
                 <div className="navbar-header">
                     <a className="navbar-brand" href="#">Explore Now</a>
@@ -43,6 +44,7 @@ function MyNavbar()
                     </li>
                 </ul>
                 </div>
+                </Container>
         </Navbar>
         </>
     )
