@@ -21,7 +21,7 @@ function MyNavbar()
             </ul>
         </Navbar>     */}
 
-        <Navbar className="navbar navbar-inverse">
+        <Navbar className="navbar navbar-inverse bg-light text-black">
             <Container>
             <div className="col-md-12">
                 <div className="navbar-header">

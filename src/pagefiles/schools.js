@@ -276,8 +276,8 @@ function Schools()
         <>
         <MyNavbar/>
 
-        <div className="container-fluid schools">
-
+        <div className="container schools py-4 px-4">
+            <div className="row fs-4">
             <h1>Schools</h1>
             <hr/>
 
@@ -314,11 +314,9 @@ function Schools()
                 {/* <h1>Page</h1> */}
 
                 <NavDetails {...currentSchool} imgs={schoolsImages} handleToggleClick={handleToggleClick} schoolsImages={images}/>
-            
-        
+ 
             </div>
-
-
+            </div>
         </div>
 
         </>

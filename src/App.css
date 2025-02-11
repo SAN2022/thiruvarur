@@ -4,31 +4,24 @@
   border: 2px solid black;
   background-color: crimson;
 }
-.navbar-inverse{
-  opacity: 0.6;
-}
 .navbar{
-  margin: 0;
-  padding: 0;
-  color: ghostwhite;
   font-size: 1.4em;
-  /* background-color: blue; */
-  /* line-height: 2.2; */
+  /* color: black; */
 }
-/* .navbar-nav .active{
-  background-color: dodgerblue;
-  border-radius: 10px;
-} */
 .navbar-header .navbar-brand{
   line-height: 2;
   font-size: 1.3em;
-  color: aliceblue;
+  /* color: aliceblue; */
 }
 .fa-icons{
   font-size: 1em;
   /* display: inline; */
   /* line-height: -2; */
   vertical-align: baseline;
+}
+.navbar-nav > li:hover{
+  /* background-color: black; */
+  color: red;
 }
 .navbar-nav{
   /* background-color: aliceblue; */
@@ -39,14 +32,4 @@
 }
 .navbar ul li a{
   text-decoration: none;
-}
-.navbar ul li:hover{
-  /* background-color: lightblue; */
-  color: black;
-}
-/* .navbar > .col-md-12 > .navbar-header{
-  background-color: blueviolet;
-} */
-.navbar-inverse{
-  /* background-color: #217b7e; */
 }

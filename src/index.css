@@ -413,12 +413,12 @@ hr.top{
   margin: 0;
   padding: 0;
   height: 100vh;  */
-  background-color: #78AEF7 ;
+  background-color: darkslategrey;
   color: seashell;
+  overflow: scroll;
 }
 .schools, .colleges, .hospitals, .theatres, .hotels, .banks{
   width: 100%;
-  margin-top: -2.5em;
   background-color: khaki;
 }
 .vs-boys-img, .veludayar-img, .sairam-img, .grm-img, .fathima-img, .kasturba-img{
@@ -484,6 +484,7 @@ hr.footer-line{
   /* background-image: url(../../images/Schools-Images/grm.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .population{
   /* transform: translate(60%, 50%); */
