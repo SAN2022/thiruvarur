@@ -5,7 +5,7 @@ import './Details.css';
 
 function NavDetails(props)
 {
-    const {name, address, phone, web, email, imgs} = props
+    const {name, address, phone, web, email, imgs, descriptions} = props
 
     console.log(name)
     console.log(imgs)
@@ -66,6 +66,10 @@ function NavDetails(props)
                     <tr>
                         <th><FontAwesomeIcon icon={faGlobe}/>   Website</th>
                         <td><a href={web} target='_blank'>{web}</a></td>
+                    </tr>
+                    <tr>
+                        <th><FontAwesomeIcon icon={faGlobe}/>   Description</th>
+                        <td><a href={web} target='_blank'>{descriptions}</a></td>
                     </tr>
                                             
                 </tbody>
