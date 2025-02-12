@@ -28,7 +28,7 @@ import { ImageData } from './pagefiles/Automatic-Slider/JsonData.js';
 
           <Routes>
             <Route exact path='/' element={<Home/>}/>  
-            <Route path='/about' element={<About/>}/>              
+            <Route path='/About' element={<About/>}/>              
             <Route path='/Schools' element={<Schools/>}/>              
             <Route path='/Colleges' element={<Colleges/>}/>              
             <Route path='/Hospitals' element={<Hospitals/>}/>              
