@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/thiruvarur/static/css/main.80399ad8.css",
-    "main.js": "/thiruvarur/static/js/main.e61e6ff8.js",
+    "main.js": "/thiruvarur/static/js/main.99fcb1ed.js",
     "static/media/vsbhs.jpg": "/thiruvarur/static/media/vsbhs.08b04db3376b17f7a3d2.jpg",
     "static/media/birds-sanctuary.jpg": "/thiruvarur/static/media/birds-sanctuary.1ff60960e432f9d03755.jpg",
     "static/media/aarooran.jpg": "/thiruvarur/static/media/aarooran.8bca4aa11964f90ef987.jpg",
@@ -66,10 +66,10 @@
     "static/media/cub.jpg": "/thiruvarur/static/media/cub.bb6c7de96164589e389b.jpg",
     "index.html": "/thiruvarur/index.html",
     "main.80399ad8.css.map": "/thiruvarur/static/css/main.80399ad8.css.map",
-    "main.e61e6ff8.js.map": "/thiruvarur/static/js/main.e61e6ff8.js.map"
+    "main.99fcb1ed.js.map": "/thiruvarur/static/js/main.99fcb1ed.js.map"
   },
   "entrypoints": [
     "static/css/main.80399ad8.css",
-    "static/js/main.e61e6ff8.js"
+    "static/js/main.99fcb1ed.js"
   ]
 }
