@@ -624,25 +624,6 @@ hr.footer-line{
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .navbar-nav {
-    background-color: red;
-  }
-  /* .population {
-    background-color: darkblue;
-    position: absolute;
-    top: 150%;
-  } */
-}
-
-
-/* For Jobs work */
-/* .job-container{
-    width: 100%;
-    background-color: #78AEF7;
-    padding: 1em;
-} */
-
 .jobs .tvr-job-head{
   padding: 2em;
   background-color: darkslategray;

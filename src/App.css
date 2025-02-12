@@ -4,32 +4,9 @@
   border: 2px solid black;
   background-color: crimson;
 }
-.navbar{
-  font-size: 1.4em;
-  /* color: black; */
-}
-.navbar-header .navbar-brand{
-  line-height: 2;
-  font-size: 1.3em;
-  /* color: aliceblue; */
-}
 .fa-icons{
   font-size: 1em;
   /* display: inline; */
   /* line-height: -2; */
   vertical-align: baseline;
-}
-.navbar-nav > li:hover{
-  /* background-color: black; */
-  color: red;
-}
-.navbar-nav{
-  /* background-color: aliceblue; */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  vertical-align: baseline;
-}
-.navbar ul li a{
-  text-decoration: none;
 }

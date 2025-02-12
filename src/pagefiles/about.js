@@ -2,9 +2,9 @@ import React from "react";
 import { ReactDOM } from "react";
 import {BrowserRouter as router, Route, Link, NavLink} from 'react-router-dom';
 import { Navbar } from "react-bootstrap";
-// import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-// import { faDroplet, faHome, faPhoneSquareAlt } from "@fortawesome/free-solid-svg-icons";
 import MyNavbar from "../components/navbar";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { faArrowDown, faArrowRight, faArrowTurnRight, faBank, faChurch, faHospital, faHotel, faSchool, faTheaterMasks, faUniversity } from '@fortawesome/free-solid-svg-icons';
 
 function About()
 {
@@ -12,8 +12,10 @@ function About()
     <>
     <MyNavbar/>
 
-    <div className='container'>      
-      <div className='content'>
+    <div className='container bg-warning py-5'> 
+      <div className="row">
+        <div className="col-md-12">
+        <div className='content'>
         <h1>Welcome to you..!</h1>
 
         <div className='about'>
@@ -40,16 +42,88 @@ function About()
           </div>
 
         </div>
+        </div>
+      </div>     
+      
       </div>
 
-      <section>
-        <center>
-          {/* <h3>Get it play..!</h3> */}
-          <iframe width="1000" height="400" src="https://www.youtube.com/embed/ZJ5CjyEwM1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </center>
+    <section>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <center>
+            {/* <h3>Get it play..!</h3> */}
+            <iframe width="1100" height="400" src="https://www.youtube.com/embed/ZJ5CjyEwM1k?si=JX_uK2aauCaYCr2H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </center>
+          </div>
+        </div>
+      </div>
+        
+    </section>
+    </div>
+
+<section className='footer mt-5'>
+        <div className='container-fluid bg-dark'>
+          <div className='row justify-content-center py-5'>
+            <div className='col-md-2'>
+
+                <div className='navigations'>
+                  <h3>Navigations</h3>
+                  <hr className='footer-line'/>
+
+                  <ul className='fs-4'>
+                    {/* <Link to='/'> */}
+                      <li><a href='#for-home'><FontAwesomeIcon icon={faArrowTurnRight}/> Home</a></li>
+                    {/* </Link> */}
+            
+                    <Link to='/About'>
+                      <li><FontAwesomeIcon icon={faArrowTurnRight}/> About</li>
+                    </Link>
+
+                    <Link to='/Contact'>
+                      <li><FontAwesomeIcon icon={faArrowTurnRight}/> Contact us</li>
+                    </Link>
+
+                  </ul>
+                </div>
+              </div>
+
+              <div className='col-md-2'>
+                <div className='navigations'>
+                  <h3>Useful Links</h3>
+                  <hr className='footer-line'/>
+
+                  <ul className='fs-4'>
+                    <Link to='/Schools'>
+                      <li><FontAwesomeIcon icon={faArrowRight}/> Schools</li>
+                    </Link>
+                    <Link to='/Colleges'>
+                      <li><FontAwesomeIcon icon={faArrowRight}/> Colleges</li>
+                    </Link> 
+                    <Link to='/Hospitals'>
+                      <li><FontAwesomeIcon icon={faArrowRight}/> Hospitals</li>
+                    </Link>
+                    <Link to='/Theatres'>
+                      <li className='foot-link'><FontAwesomeIcon icon={faArrowRight}/> Theaters</li>
+                    </Link>
+                    <Link to='/Hotels'>
+                      <li className='foot-link'><FontAwesomeIcon icon={faArrowRight}/> Hotels/Residencies</li>
+                    </Link>
+                    <Link to='/Banks'>
+                      <li className='foot-link'><FontAwesomeIcon icon={faArrowRight}/> Banks</li>
+                    </Link> 
+                  </ul>
+                </div>
+
+              </div>
+          </div>
+        </div>
+
       </section>
 
-    </div>
+
+    
+
     </>
 )
 }
