@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.893b0da9.css",
-    "main.js": "./static/js/main.6488c62e.js",
+    "main.js": "./static/js/main.e94eeeb1.js",
     "static/media/vsbhs.jpg": "./static/media/vsbhs.08b04db3376b17f7a3d2.jpg",
     "static/media/birds-sanctuary.jpg": "./static/media/birds-sanctuary.1ff60960e432f9d03755.jpg",
     "static/media/aarooran.jpg": "./static/media/aarooran.8bca4aa11964f90ef987.jpg",
@@ -66,10 +66,10 @@
     "static/media/cub.jpg": "./static/media/cub.bb6c7de96164589e389b.jpg",
     "index.html": "./index.html",
     "main.893b0da9.css.map": "./static/css/main.893b0da9.css.map",
-    "main.6488c62e.js.map": "./static/js/main.6488c62e.js.map"
+    "main.e94eeeb1.js.map": "./static/js/main.e94eeeb1.js.map"
   },
   "entrypoints": [
     "static/css/main.893b0da9.css",
-    "static/js/main.6488c62e.js"
+    "static/js/main.e94eeeb1.js"
   ]
 }
