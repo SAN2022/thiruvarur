@@ -159,7 +159,8 @@ function Hotels()
         <>
             <MyNavbar/>
 
-        <div className="container-fluid hotels">
+        <div className="container hotels py-4 px-4">
+            <div className="row fs-4">
 
             <h1>Hotels/Residencies</h1>
             <hr/>
@@ -182,6 +183,7 @@ function Hotels()
 
             <NavDetails {...currentHotel} imgs={hotelsImages}/>
 
+            </div>
             </div>
         </div>
         </>

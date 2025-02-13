@@ -134,8 +134,8 @@ return(
         <>
             <MyNavbar/>
 
-        <div className="container-fluid theatres">
-
+        <div className="container theatres py-4 px-4">
+            <div className="row fs-4">
             <h1>Theatres</h1>
             <hr/>
 
@@ -154,6 +154,7 @@ return(
 
             <NavDetails {...currentTheater} imgs={theatersImages}/>
 
+            </div>
             </div>
         </div>
         </>

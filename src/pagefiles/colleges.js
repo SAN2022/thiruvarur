@@ -220,7 +220,8 @@ function Colleges()
                 <MyNavbar/> 
             </section>
 
-            <div className="container-fluid colleges">
+            <div className="container colleges py-4 px-4">
+            <div className="row fs-4">
                 
             <h1>Colleges/Universities</h1>
             <hr/>
@@ -251,7 +252,7 @@ function Colleges()
                 <NavDetails {...currentCollege} imgs={collegesImages}/>
 
             </div>
-            
+            </div>
             </div>
         </>
     )

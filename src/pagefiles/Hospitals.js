@@ -282,8 +282,8 @@ function Hospitals()
         <>
             <MyNavbar/>
 
-        <div className="container-fluid hospitals">
-
+        <div className="container hospitals py-4 px-4">
+            <div className="row fs-4">
             <h1>Hospitals</h1>
             <hr/>
             <div className="col-md-4">
@@ -315,7 +315,8 @@ function Hospitals()
             {/* <h1>Page</h1> */}
 
             <NavDetails {...currentHospital} imgs={hospitalsImages}/>
-
+            
+            </div>
             </div>
         </div>
         </>

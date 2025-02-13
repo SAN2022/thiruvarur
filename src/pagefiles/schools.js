@@ -26,7 +26,7 @@ function Schools()
     const images = [trinity, '', '', vsbhs, veludayar, sairam, grm, fathima, kasturba, bharath]
     const [schoolsImages, setSchoolsImages] = useState()
 
-    console.log(typeof(currentSchool))
+    // console.log(typeof(currentSchool))
 
     // const [cbseSchools, setCbseSchools] = useState([]);
     // const [govtSchools, setGovtSchools] = useState([]);
@@ -37,9 +37,9 @@ function Schools()
 
     useEffect(() =>
     {
-        fetch('http://localhost:3004/schools')
+        // fetch('http://localhost:3004/schools')
+        fetch('https://san2022.github.io/API/db.json') 
         .then(res => res.json())
-        // .then(res => console.log(res))
         .then(res => {
             setSchools(res)
             // setCurrentSchool(schools[0])
@@ -48,7 +48,6 @@ function Schools()
             // setPrivateSchools(res[2])
         })
     },[])
-
     console.log(schools)
     // console.log(typeof(schools))
 
