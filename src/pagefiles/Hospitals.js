@@ -30,7 +30,7 @@ function Hospitals()
 
     useEffect(()=>
     {
-        fetch('http://localhost:3004/Hospitals')
+        fetch('https://exultant-joyous-sherbet.glitch.me/hospitals') 
         .then(res => res.json())
         .then(res => setHospitals(res))
     },[])
@@ -289,24 +289,24 @@ function Hospitals()
             <div className="col-md-4">
             <div className="govt-hospitals list-group">
                 <a href="" className="list-group-item hospital-head">Government Hospitals</a>
-                <a href="#" className="list-group-item" onClick={e => handleHospitalClick(0)}>GOVERNMENT MEDICAL COLLEGE HOSPITAL</a>
-                <a href="#" className="list-group-item" onClick={e => handleHospitalClick(1)}>GOVERNMENT HOSPITAL</a>
-                <a href="#" className="list-group-item" onClick={e => handleHospitalClick(2)}>GOVERNMENT WOMEN AND CHILDREN HOSPITAL</a>
+                <a className="list-group-item" onClick={e => handleHospitalClick(0)}>GOVERNMENT MEDICAL COLLEGE HOSPITAL</a>
+                <a className="list-group-item" onClick={e => handleHospitalClick(1)}>GOVERNMENT HOSPITAL</a>
+                <a className="list-group-item" onClick={e => handleHospitalClick(2)}>GOVERNMENT WOMEN AND CHILDREN HOSPITAL</a>
             </div>
             <br/>
 
             <div className="private-hospitals list-group">
-                <a href="#" className="list-group-item hospital-head">Private Hospitals</a>
-                <a href="#" className="list-group-item" onClick={e => handleHospitalClick(3)}>TMC HOSPITAL</a>
-                <a href="#" className="list-group-item" onClick={e => handleHospitalClick(4)}>VENKATESWARA HOSPITAL</a>
-                <a href="#" className="list-group-item" onClick={e => handleHospitalClick(5)}>V.S HOSPITAL</a>
-                <a href="#" className="list-group-item" onClick={e => handleHospitalClick(6)}>PARVATHI HOSPITAL</a>
-                <a href="#" className="list-group-item" onClick={e => handleHospitalClick(7)}>LAKSHANA HOSPITAL</a>                
-                <a href="#" className="list-group-item" onClick={e => handleHospitalClick(8)}>SURYA HOSPITAL</a>
-                <a href="#" className="list-group-item" onClick={e => handleHospitalClick(9)}>NAVA JEEVAN HOSPITAL</a>
-                <a href="#" className="list-group-item" onClick={e => handleHospitalClick(10)}>SRI JEYAM HOSPITAL</a>
-                <a href="#" className="list-group-item" onClick={e => handleHospitalClick(11)}>DM HOSPITAL</a>
-                <a href="#" className="list-group-item" onClick={e => handleHospitalClick(12)}>KUMARAGURU HOSPITAL</a>
+                <a className="list-group-item hospital-head">Private Hospitals</a>
+                <a className="list-group-item" onClick={e => handleHospitalClick(3)}>TMC HOSPITAL</a>
+                <a className="list-group-item" onClick={e => handleHospitalClick(4)}>VENKATESWARA HOSPITAL</a>
+                <a className="list-group-item" onClick={e => handleHospitalClick(5)}>V.S HOSPITAL</a>
+                <a className="list-group-item" onClick={e => handleHospitalClick(6)}>PARVATHI HOSPITAL</a>
+                <a className="list-group-item" onClick={e => handleHospitalClick(7)}>LAKSHANA HOSPITAL</a>                
+                <a className="list-group-item" onClick={e => handleHospitalClick(8)}>SURYA HOSPITAL</a>
+                <a className="list-group-item" onClick={e => handleHospitalClick(9)}>NAVA JEEVAN HOSPITAL</a>
+                <a className="list-group-item" onClick={e => handleHospitalClick(10)}>SRI JEYAM HOSPITAL</a>
+                <a className="list-group-item" onClick={e => handleHospitalClick(11)}>DM HOSPITAL</a>
+                <a className="list-group-item" onClick={e => handleHospitalClick(12)}>KUMARAGURU HOSPITAL</a>
             </div>
             </div>
 

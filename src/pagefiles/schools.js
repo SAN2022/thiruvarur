@@ -37,8 +37,8 @@ function Schools()
 
     useEffect(() =>
     {
-        // fetch('http://localhost:3004/schools')
-        fetch('https://san2022.github.io/API/db.json') 
+        // fetch('https://san2022.github.io/API/db.json/schools')
+        fetch('https://exultant-joyous-sherbet.glitch.me/schools') 
         .then(res => res.json())
         .then(res => {
             setSchools(res)
@@ -48,6 +48,7 @@ function Schools()
             // setPrivateSchools(res[2])
         })
     },[])
+
     console.log(schools)
     // console.log(typeof(schools))
 
@@ -284,27 +285,27 @@ function Schools()
 
             <div className="cbse-schools list-group">
                 <a href="#" className="list-group-item school-head">CBSE School</a>
-                <a href="#" className="list-group-item" onClick={e => handleSchoolClick(0)}>THE TRINITY ACADEMY</a>
+                <a className="list-group-item" onClick={e => handleSchoolClick(0)}>THE TRINITY ACADEMY</a>
             </div>
             <br/>
 
             <div className="govt-schools list-group">
                 <a href="" className="list-group-item school-head">Government Schools</a>
-                <a href="#" className="list-group-item" onClick={e => handleSchoolClick(1)}>Government Higher Secondary School, Kattur</a>
-                <a href="#" className="list-group-item" onClick={e => handleSchoolClick(2)}>Government Music School, Senthamangalam</a>
+                <a className="list-group-item" onClick={e => handleSchoolClick(1)}>Government Higher Secondary School, Kattur</a>
+                <a className="list-group-item" onClick={e => handleSchoolClick(2)}>Government Music School, Senthamangalam</a>
             </div>
             <br/>
 
             <div className="private-schools list-group">
-                <a href="#" className="list-group-item school-head">Private Schools</a>
+                <a href="" className="list-group-item school-head">Private Schools</a>
 
-                <a href="#" className="list-group-item" onClick={e => handleSchoolClick(3)}>V.S.Boys Higher Secondary School</a>
-                <a href="#" className="list-group-item" onClick={e => handleSchoolClick(4)}>Veludayar Higher Secondary School</a>
-                <a href="#" className="list-group-item" onClick={e => handleSchoolClick(5)}>Sairam Matriculation Higher Secondary School</a>
-                <a href="#" className="list-group-item" onClick={e => handleSchoolClick(6)}>Sri GRM Girls Higher Secondary School</a>
-                <a href="#" className="list-group-item" onClick={e => handleSchoolClick(7)}>R.C. Fathima Matriculation School</a>                
-                <a href="#" className="list-group-item" onClick={e => handleSchoolClick(8)}>Kasturba Gandhi Matriculation Higher Secondary School</a>
-                <a href="#" className="list-group-item" onClick={e => handleSchoolClick(9)}>New Bharath Matriculation Higher Secondary School</a>
+                <a className="list-group-item" onClick={e => handleSchoolClick(3)}>V.S.Boys Higher Secondary School</a>
+                <a className="list-group-item" onClick={e => handleSchoolClick(4)}>Veludayar Higher Secondary School</a>
+                <a className="list-group-item" onClick={e => handleSchoolClick(5)}>Sairam Matriculation Higher Secondary School</a>
+                <a className="list-group-item" onClick={e => handleSchoolClick(6)}>Sri GRM Girls Higher Secondary School</a>
+                <a className="list-group-item" onClick={e => handleSchoolClick(7)}>R.C. Fathima Matriculation School</a>                
+                <a className="list-group-item" onClick={e => handleSchoolClick(8)}>Kasturba Gandhi Matriculation Higher Secondary School</a>
+                <a className="list-group-item" onClick={e => handleSchoolClick(9)}>New Bharath Matriculation Higher Secondary School</a>
             </div>
             </div>
         

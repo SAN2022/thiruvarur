@@ -23,7 +23,7 @@ function Hotels()
 
     useEffect(()=>
     {
-        fetch('http://localhost:3004/hotels')
+        fetch('https://exultant-joyous-sherbet.glitch.me/hotels') 
         .then(res => res.json())
         .then(res => setHotels(res))
     },[])
@@ -166,14 +166,14 @@ function Hotels()
             <hr/>
             <div className="col-md-4">
             <div className="list-group">
-                <a href="#" className="list-group-item hotel-head">Hotels/Residencies</a>
-                <a href="#" className="list-group-item" onClick={e => handleHotelClick(0)}>HOTEL SELVIES</a>
-                <a href="#" className="list-group-item" onClick={e => handleHotelClick(1)}>HOTEL MMA THIRUVARUR</a>
-                <a href="#" className="list-group-item" onClick={e => handleHotelClick(2)}>HOTEL KASI'S INN</a>
-                <a href="#" className="list-group-item" onClick={e => handleHotelClick(3)}>SUDARSHAN COMPLEX HOTEL</a>
-                <a href="#" className="list-group-item" onClick={e => handleHotelClick(4)}>SEVEN HILLS RESIDENCY</a>                
-                <a href="#" className="list-group-item" onClick={e => handleHotelClick(5)}>SRI MEENAKSHI KRISHNA LODGE</a>
-                <a href="#" className="list-group-item" onClick={e => handleHotelClick(6)}>THAILAMMAI INN BOARDING AND LODGING</a>
+                <a className="list-group-item hotel-head">Hotels/Residencies</a>
+                <a className="list-group-item" onClick={e => handleHotelClick(0)}>HOTEL SELVIES</a>
+                <a className="list-group-item" onClick={e => handleHotelClick(1)}>HOTEL MMA THIRUVARUR</a>
+                <a className="list-group-item" onClick={e => handleHotelClick(2)}>HOTEL KASI'S INN</a>
+                <a className="list-group-item" onClick={e => handleHotelClick(3)}>SUDARSHAN COMPLEX HOTEL</a>
+                <a className="list-group-item" onClick={e => handleHotelClick(4)}>SEVEN HILLS RESIDENCY</a>                
+                <a className="list-group-item" onClick={e => handleHotelClick(5)}>SRI MEENAKSHI KRISHNA LODGE</a>
+                <a className="list-group-item" onClick={e => handleHotelClick(6)}>THAILAMMAI INN BOARDING AND LODGING</a>
             </div>
             </div>
 

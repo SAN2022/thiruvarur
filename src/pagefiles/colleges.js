@@ -24,7 +24,7 @@ function Colleges()
 
     useEffect(()=>
     {
-        fetch('http://localhost:3004/colleges')
+        fetch('https://exultant-joyous-sherbet.glitch.me/colleges') 
         .then(res => res.json())
         .then(res => {
             setColleges(res)
@@ -228,21 +228,21 @@ function Colleges()
 
             <div className="col-md-4">
             <div className="list-group cutn/medical">
-                <a href="#" className="list-group-item college-head">CUTN/ MEDICAL College</a>
-                <a href="#" className="list-group-item" onClick={e => handleCollegeClick(0)}>CENTRAL UNIVERSITY OF TAMIL NADU, THIRUVARUR</a>
-                <a href="#" className="list-group-item" onClick={e => handleCollegeClick(1)}>GOVERNMENT THIRUVARUR MEDICAL COLLEGE, THIRUVARUR</a>
+                <a className="list-group-item college-head">CUTN/ MEDICAL College</a>
+                <a className="list-group-item" onClick={e => handleCollegeClick(0)}>CENTRAL UNIVERSITY OF TAMIL NADU, THIRUVARUR</a>
+                <a className="list-group-item" onClick={e => handleCollegeClick(1)}>GOVERNMENT THIRUVARUR MEDICAL COLLEGE, THIRUVARUR</a>
             </div>
             <br/>
             <div className="list-group govt-colleges">
-                <a href="#" className="list-group-item college-head">Government Colleges</a>
-                <a href="#" className="list-group-item" onClick={e => handleCollegeClick(2)}>THIRU.VI.KA.GOVT.ARTS COLLEGE</a>
+                <a className="list-group-item college-head">Government Colleges</a>
+                <a className="list-group-item" onClick={e => handleCollegeClick(2)}>THIRU.VI.KA.GOVT.ARTS COLLEGE</a>
             </div>
             <br/>
             <div className="list-group private-colleges">
-                <a href="#" className="list-group-item college-head">Private Colleges</a>
-                <a href="#" className="list-group-item" onClick={e => handleCollegeClick(3)}>AAROORAN POLYTECHNIC COLLEGE, THIRUVARUR</a>
-                <a href="#" className="list-group-item" onClick={e => handleCollegeClick(4)}>NETHAJI SUBASH CHANDRA BOSE GIRLS ARTS AND SCIENCE COLLEGE</a>
-                <a href="#" className="list-group-item" onClick={e => handleCollegeClick(5)}>RABIAMMAL AHAMED MAIDEEN COLLEGE FOR WOMEN</a>                
+                <a className="list-group-item college-head">Private Colleges</a>
+                <a className="list-group-item" onClick={e => handleCollegeClick(3)}>AAROORAN POLYTECHNIC COLLEGE, THIRUVARUR</a>
+                <a className="list-group-item" onClick={e => handleCollegeClick(4)}>NETHAJI SUBASH CHANDRA BOSE GIRLS ARTS AND SCIENCE COLLEGE</a>
+                <a className="list-group-item" onClick={e => handleCollegeClick(5)}>RABIAMMAL AHAMED MAIDEEN COLLEGE FOR WOMEN</a>                
             </div>
             </div>
 

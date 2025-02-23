@@ -19,7 +19,7 @@ function Theatres()
     
     useEffect(()=>
     {
-        fetch('http://localhost:3004/Theaters')
+        fetch('https://exultant-joyous-sherbet.glitch.me/theaters') 
         .then(res => res.json())
         .then(res => setTheatres(res))
     },[])
@@ -141,10 +141,10 @@ return(
 
             <div className="col-md-4">
             <div className="list-group">
-                <a href="#" className="list-group-item theatre-head">Theatres</a>
-                <a href="#" className="list-group-item" onClick={e => handleTheatreClick(0)}>THAILAMMAI CINEMAS A/C 4K DOLBY ATMOS</a>
-                <a href="#" className="list-group-item" onClick={e => handleTheatreClick(1)}>NATESH CINEMAS AC 3D DOLBY ATMOS</a>
-                <a href="#" className="list-group-item" onClick={e => handleTheatreClick(2)}>CHOLA DTS</a>
+                <a className="list-group-item theatre-head">Theatres</a>
+                <a className="list-group-item" onClick={e => handleTheatreClick(0)}>THAILAMMAI CINEMAS A/C 4K DOLBY ATMOS</a>
+                <a className="list-group-item" onClick={e => handleTheatreClick(1)}>NATESH CINEMAS AC 3D DOLBY ATMOS</a>
+                <a className="list-group-item" onClick={e => handleTheatreClick(2)}>CHOLA DTS</a>
             </div>
             </div>
 
