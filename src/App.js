@@ -11,6 +11,7 @@ import Hotels from './pagefiles/Hotels';
 import "./FontAwesome/index";
 import Banks from './pagefiles/Banks';
 import Jobs from './pagefiles/Jobs.js';
+import Contact from './pagefiles/Contact';
 
 import './App.css';
 // import ImageSlider from './../component/ImageSlider';
@@ -35,7 +36,9 @@ import { ImageData } from './pagefiles/Automatic-Slider/JsonData.js';
             <Route path='/Theatres' element={<Theatres/>}/>              
             <Route path='/Hotels' element={<Hotels/>}/>              
             <Route path='/Banks' element={<Banks/>}/>              
-            <Route path='/Jobs' element={<Jobs/>}/>              
+            <Route path='/Jobs' element={<Jobs/>}/>    
+            <Route path='/Contact' element={<Contact/>}/>    
+                      
           </Routes>
 
 

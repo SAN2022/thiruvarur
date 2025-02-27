@@ -32,24 +32,40 @@ function MyNavbar()
             </div>
             </nav> */}
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fs-4">
-    <div class="container">
-      <a class="navbar-brand fs-4" href="#">Navbar</a>
+    
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <nav className="navbar navbar-expand-lg bg-body-tertiary fs-4">
+    <div className="container">
+      <a className="navbar-brand fs-4" href="#">Navbar</a>
+
+      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
       </button>
       
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+      <div className="collapse navbar-collapse" id="navbarNav">
+        <ul className="navbar-nav ms-auto">
+          
+
+          {/* <Link to='/Schools'>  
+            <li><FontAwesomeIcon icon={faArrowRight}/> Schools</li>
+            </Link> */}
+
+          <li className="nav-item">
+            <Link to='/'>
+              <a className="nav-link active" aria-current="page" href="#home">Home</a>
+            </Link>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
+
+          <li className="nav-item">
+            <Link to='/About'>
+              <a className="nav-link">About</a>
+            </Link>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
+
+          <li className="nav-item"> 
+            <Link to='/Contact'>
+              <a className="nav-link">Contact</a>
+            </Link>
           </li>
         
         </ul>

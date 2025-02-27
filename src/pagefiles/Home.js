@@ -6,7 +6,7 @@ import MyNavbar from '../components/navbar';
 import Schools from './schools.js';
 import Colleges from './schools.js';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faArrowDown, faArrowRight, faArrowTurnRight, faBank, faChurch, faHospital, faHotel, faSchool, faTheaterMasks, faUniversity } from '@fortawesome/free-solid-svg-icons';
+import { faReact, faFacebook, faArrowDown, faArrowRight, faArrowTurnRight, faBank, faChurch, faHospital, faHotel, faSchool, faTheaterMasks, faUniversity } from '@fortawesome/free-solid-svg-icons';
 import Weather from './Details/Weather';
 import Jobs from './Jobs.js';
 import gif from './../images/Newgif.gif';
@@ -183,11 +183,23 @@ function Home() {
               <div className='hidden-round'></div>
               
               <div className='caption'>
-                <h4>Tmt.T. Charusree., IAS.,</h4>
+                <h4>Thiru. V.Mohanachandran I.A.S.,</h4>
                 <h5>District Collector,</h5>
                 <h5>Thiruvarur District</h5>
                 <h5>Tamil Nadu</h5>
+                
+                <hr/>
+
+                <div className='social-links'>
+                  <h4>Follow Us</h4>
+                  {/* <FontAwesomeIcon icon="fa-brands fa-facebook" /> */}
+                  {/* <FontAwesomeIcon icon={faFacebook} /> */}
+                  
+                  <FontAwesomeIcon icon="facebook" />
+                </div>
+
               </div>
+
             </div>
 
             <div className='list-group'>

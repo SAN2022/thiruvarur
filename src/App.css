@@ -10,6 +10,9 @@
   /* line-height: -2; */
   vertical-align: baseline;
 }
+.navbar-nav a{
+  text-decoration: none;
+}
 .navbar-expand-lg{
   margin-bottom: 0;
 }
@@ -17,3 +20,19 @@
   height: 0;
   line-height: 0;
 }
+/* Contact Form */
+
+.contact{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: khaki;
+}
+/* .contact-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
